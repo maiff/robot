@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* line 4, /media/mmx/学习/前端项目/robot/src/public/sass/tool/base.scss */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 8, /media/mmx/学习/前端项目/robot/src/public/sass/tool/base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 7, /media/mmx/学习/前端项目/robot/src/public/sass/login.scss */
+body, html {
+  height: 100%;
+}
+
+/* line 10, /media/mmx/学习/前端项目/robot/src/public/sass/login.scss */
+.bg {
+  width: 100%;
+  height: 50%;
+  float: left;
+  z-index: -1000;
+}
+
+/* line 15, /media/mmx/学习/前端项目/robot/src/public/sass/login.scss */
+.top {
+  background: #00bcd4;
+}
+
+/* line 18, /media/mmx/学习/前端项目/robot/src/public/sass/login.scss */
+.bottom {
+  background: #eee;
+}
+
+/* line 21, /media/mmx/学习/前端项目/robot/src/public/sass/login.scss */
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-tranform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  width: 30%;
+}
+
+/* line 25, /media/mmx/学习/前端项目/robot/src/public/sass/login.scss */
+.submit {
+  position: absolute;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
