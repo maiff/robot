@@ -72,3 +72,13 @@ li {
 .main-container main .daily-information .robot-contronl {
   margin-top: 25px;
 }
+
+/* line 60, /media/mmx/学习/前端项目/robot/src/public/sass/main.scss */
+.hide {
+  display: none !important;
+}
+
+/* line 64, /media/mmx/学习/前端项目/robot/src/public/sass/main.scss */
+.show {
+  display: block !important;
+}

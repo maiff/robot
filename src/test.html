@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>测试</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    </head>
+    <body>
+    <ul id="result">
+
+    </ul>
+    </body>
+
+    <script src="./js/robot.js"></script>
+    <script>
+        var robotTest=new robot("1325");
+
+        //robotTest.set(null,"test",function(){})
+        //robotTest.set(111,"test",function(){})
+        //robotTest.set('ttt.pp',"test",function(){})
+        //robotTest.set('tt',"test",function(){})
+        //robotTest.set('111.ttt.ttt',"test",function(){})
+        //robotTest.set('dailyInformation.tt.tt',"test",function(){})
+        
+       
+        robotTest.set('dailyInformation.tt',"test",function(value){
+            document.getElementById('result').innerHTML=value;
+        })
+
+        setTimeout(function(){
+             robotTest.set('dailyInformation.tt',"test222")
+        },3000)
+        setTimeout(function(){
+             robotTest.set('dailyInformation.tt',"test22223",false)
+        },4000)
+
+        setTimeout(function(){
+             robotTest.set('dailyInformation.tt')
+        },5000)        
+
+
+        
+    </script>
+</html>
