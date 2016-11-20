@@ -1,21 +1,21 @@
 @charset "UTF-8";
-/* line 4, /media/mmx/学习/前端项目/robot/src/public/sass/tool/base.scss */
+/* line 4, C:/工具/前端/robot/src/public/sass/tool/base.scss */
 * {
   padding: 0;
   margin: 0;
 }
 
-/* line 8, /media/mmx/学习/前端项目/robot/src/public/sass/tool/base.scss */
+/* line 8, C:/工具/前端/robot/src/public/sass/tool/base.scss */
 a {
   text-decoration: none;
 }
 
-/* line 7, /media/mmx/学习/前端项目/robot/src/public/sass/login.scss */
+/* line 7, C:/工具/前端/robot/src/public/sass/login.scss */
 body, html {
   height: 100%;
 }
 
-/* line 10, /media/mmx/学习/前端项目/robot/src/public/sass/login.scss */
+/* line 10, C:/工具/前端/robot/src/public/sass/login.scss */
 .bg {
   width: 100%;
   height: 50%;
@@ -23,17 +23,17 @@ body, html {
   z-index: -1000;
 }
 
-/* line 15, /media/mmx/学习/前端项目/robot/src/public/sass/login.scss */
+/* line 15, C:/工具/前端/robot/src/public/sass/login.scss */
 .top {
   background: #00bcd4;
 }
 
-/* line 18, /media/mmx/学习/前端项目/robot/src/public/sass/login.scss */
+/* line 18, C:/工具/前端/robot/src/public/sass/login.scss */
 .bottom {
   background: #eee;
 }
 
-/* line 21, /media/mmx/学习/前端项目/robot/src/public/sass/login.scss */
+/* line 21, C:/工具/前端/robot/src/public/sass/login.scss */
 .center {
   position: absolute;
   top: 50%;
@@ -46,7 +46,7 @@ body, html {
   width: 30%;
 }
 
-/* line 25, /media/mmx/学习/前端项目/robot/src/public/sass/login.scss */
+/* line 25, C:/工具/前端/robot/src/public/sass/login.scss */
 .submit {
   position: absolute;
   left: 100%;
